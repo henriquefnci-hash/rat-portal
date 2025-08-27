@@ -1,0 +1,87 @@
+/* Paleta de cores */
+:root {
+    --blue-dark: #030d30;
+    --yellow: #fcc80d;
+    --white: #ffffff;
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--blue-dark);
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: var(--blue-dark);
+    color: var(--white);
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--white);
+}
+
+header nav a.btn-login {
+    background-color: var(--yellow);
+    color: var(--blue-dark);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, var(--white), #f0f0f0);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-buttons a {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: var(--yellow);
+    color: var(--blue-dark);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--blue-dark);
+    border: 2px solid var(--blue-dark);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--blue-dark);
+    color: var(--white);
+    margin-top: 50px;
+}
