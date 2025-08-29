@@ -124,12 +124,12 @@
             // Lógica de autenticação
             if (email === 'henriquefnci@gmail.com' && password === 'Henrique@4') {
                 showMessage('Login de Administrador bem-sucedido!');
-                // Aqui você redirecionaria para o painel do administrador
-                // window.location.href = '/admin-dashboard.html';
+                // A linha abaixo foi descomentada para redirecionar
+                window.location.href = 'admin.html'; 
             } else if (email && password) {
                 showMessage('Login de Membro bem-sucedido!');
                 // Aqui você redirecionaria para o painel do membro
-                // window.location.href = '/member-dashboard.html';
+                // window.location.href = 'member-dashboard.html';
             } else {
                 showMessage('Credenciais inválidas. Tente novamente.', true);
             }
@@ -138,4 +138,3 @@
 
 </body>
 </html>
-
